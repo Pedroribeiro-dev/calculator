@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.calc-geral{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#calc-visor{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items:end;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+
+button{
+    font-size: 18px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.botoes-geral{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 7px;
+    column-gap: 7px;
+    width: 300px;
+    height: 200px;
+}
+
+.is-depressed{
+    box-shadow: -5px 5px 8px;
+}
